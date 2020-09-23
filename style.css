@@ -1,0 +1,59 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+/* <<<<<<<<<<<transforms<>>>>>>>>>>>>> */
+
+img {
+  /* transform: translateXY(50px, 200px) para moverlo hacia los lados*/
+
+  /* transform: scaleXY(1.2); para agrandar el objeto o la imagen*/
+
+  /* transform: rotateZ(90deg); ROTATE X Y Z, la z te mueve el objeto como las agujas del reloj, en negativo o positivos valores */
+
+  /* transform: translateX(150px) scaleY(1.2) rotateZ(-25deg); */
+  
+}
+
+h1 {
+
+  transform:;
+}
+
+/* >>>>>>>>>>>>>>TRANSITIONS<<<<<<<<<<<<<<<<<<<< */
+
+
+.circle {
+
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: orange;
+  text-align: center;
+  line-height: 9rem;
+  position: relative;
+  left: 700px;
+  /* transition: 3s linear; */
+  transition: background-color 1s, transform 1s 1s ease-in;
+  /* transition: 4s ease-in-out; */
+
+  
+}
+
+.circle:hover{
+
+  background: lightgreen;
+  transform: rotate(360deg);
+}
+
+/* <<<<<< keyframes >>>>>>>>>> */
+
